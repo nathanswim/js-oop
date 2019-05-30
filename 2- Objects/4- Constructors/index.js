@@ -19,7 +19,7 @@ function Circle(radius) {
     };
 }
 
-const another = new Circle(1);
+const another = new Circle(1); // must use new; 1) creates an empty object 2) sets this to equal empty object.
 another.draw();
 
 const other = Circle(1);
